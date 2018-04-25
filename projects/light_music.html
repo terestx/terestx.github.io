@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html >
+	<head>
+	   <link type="text/css" rel="stylesheet" href="chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/content.css">
+	<style type="text/css">
+		font{
+			font-family: Roboto; Helvetica; Arial;  sans-serif;
+			font-color: #757575;
+		     text-align: center;
+		    		}
+		a {
+				text-decoration: none;
+				color: #66AAEE;
+			}
+			a:visited {
+    text-decoration: none;
+    color: #99DDFF;
+		</style>
+		<title>terest Ting</title>
+<link type="text/css" rel="stylesheet" href="chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/content.css">
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			</head>
+	<body bgcolor="#b7b7b7">
+	<div class="player-wrapper" style="position: fixed; top: 0px; left: 0px; z-index: 0; height: 70%	; width: 100%; transform: translate3d(0px, 0px, 0px);">
+<div style="background-color: #edf8ef; position: static; width: 100%; height: 100%;">
+<br /><br />
+<center><font size="10" color="#757575">terest Ting</font></center>
+<br />
+<center><font size="4" color="#3"><p>there is light music page   (reload page random play )<br /><br /><a href="music.html" >music</a></p></center>
+
+<br /><br /><br /><br /><br /><br /><br /><p style="position: absolute; left: 47%; top: 72%;}">listen :	</p>
+<br /><p style="position: absolute; left: 42%; top: 80%;}" id="musicName"></p><br /><br /><br /><br /><br />
+<div id="audioBox" >
+	<noscript><center><p>sorry, your browser does not suppprt</p></center></noscript>
+<script type="text/javascript">
+window.onload = function(){
+var arr = ["file1", "file2", "file3" ];        
+var i=0;     
+var old=0;
+var max=4;
+var myAudio = new Audio();
+myAudio.style.cssText='width: 80%; hight: 32%; position: absolute; left:10%; top: 115%';
+myAudio.autoplay = true;
+myAudio.preload = true;
+myAudio.controls = true;
+i=Math.floor(Math.random()*max);    //初始化
+myAudio.src = arr[i];  //每次随机读数组一个元素
+old=i;
+i=Math.floor(Math.random()*max); 
+myAudio.addEventListener('ended', playEndedHandler, false);
+myAudio.play();
+document.getElementById("audioBox").appendChild(myAudio);
+document.getElementById('musicName').innerText =arr[old].toString();
+old=i;
+myAudio.loop = false;//禁止循环，否则无法触发ended事件
+function playEndedHandler(){
+myAudio.src = arr[i];
+i=Math.floor(Math.random()*max); 
+myAudio.play();
+document.getElementById('musicName').innerText =arr[old].toString();
+old=i;
+console.log(arr.length);
+!arr.length && myAudio.removeEventListener('ended',playEndedHandler,false);//只有一个元素时解除绑定
+}
+}
+</script>
+</div>
+</div></div>
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+	
+	</body>
+</html>	

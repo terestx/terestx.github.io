@@ -1,0 +1,54 @@
+body,h1,h2,p {margin: 0; padding: 0}
+body {font: 16px 'Microsoft YaHei',Helvetica,Arial,'sans-serif'; min-width: 320px; color: #333; background-color: #F9F9F9; padding-top: 52px}
+a {display: inline-block}
+a:link {text-decoration: none; color: #757575}
+a:visited {text-decoration: none;  color: #66cc88}
+a:active {color: green}
+a:hover {text-decoration: underline}
+input.basic-submit {background-color: #EEEEEE; color: #757575; font-family: "Roboto", "Helvetica", "Arial", sans-serif; height: 26px;  width: auto; display: block; border: none; border-radius: 3px; padding: 5px; font-size: 13px; text-transform: none; font-weight: 400; }
+h1 {font-size: 20px}
+h2 {font-size: 16px}
+#header-box,#wrap { width: 960px; padding-left: 10px; padding-right: 10px; margin-left: auto; margin-right: auto; background-color: #FFF}
+#header {position: fixed; width: 100%; left: 0; right: 0; top: 0;  z-index: 9}
+#logo {background: url('') 0 50% no-repeat; padding-left: 1px}
+#header-box {position: relative}
+#header h1 { position: relative; padding: 10px 0; height: 30px; line-height: 30px; border-bottom: 2px #607d8b solid}
+#header small {position: absolute; top: 10px; right: 0; font-weight: 400}
+#header a {display: inline-block}
+#nav-toggle, #add-web {background-color: #FAFAFA; padding: 0 10px}
+#nav-toggle {margin-right: 5px}
+#nav-toggle {color: #AFDFFA}
+#add-web {color: green}
+#nav-toggle:hover,#add-web:hover {text-decoration: none}
+#nav-toggle.active,#nav-toggle:hover {background-color: #556677; color: #F1F1F1}
+#add-web.active,#add-web:hover {background-color: ; color: #F1F1F1}
+#nav {position: absolute; left: 10px; right: 10px; top: -100%; visibility: hidden; transition: 300ms; z-index: -1; padding: 10px 10px 10px 0; background-color: #445566; line-height: 30px}
+#nav.show {top: 52px; visibility: visible}
+#nav a {margin-left: 10px; color: #FFF}
+
+
+
+
+
+
+#nav-shsj {margin-right: 5px}
+#nav-shsj {color: #AABBCC}
+
+
+#nav-shsj:hover,#add-web:hover {text-decoration: none}
+#nav-shxj.active,#nav-shxj:hover {background-color: #a9e7d9; color: #757575}
+
+
+#nav2 {position: absolute; left: 10px; right: 10px; top: -100%; visibility: hidden; transition: 300ms; z-index: -1; padding: 10px 10px 10px 0; background-color: #445566; line-height: 30px}
+#nav2.show {top: 52px; visibility: visible}
+#nav2 a {margin-left: 10px; color: #F1F1F1}
+
+
+
+
+
+#main a {margin-right: 10px}
+#main p {line-height: 30px; padding-bottom: 20px; border-bottom: 1px #EEE solid}
+#main h2 {margin-bottom: 5px; padding-top: 20px}
+#footer {text-align: center; padding: 10px 0; color: #666; font-size: 14px}
+@media screen and (max-width: 960px) {#header-box,#wrap {width: auto; min-width: 300px; max-width: 960px}}

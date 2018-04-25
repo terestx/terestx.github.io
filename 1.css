@@ -1,0 +1,48 @@
+
+#wb_header { width:100%; height: 70px; }
+#wb_header > .wb_cont_bg {  background: transparent none repeat scroll left top; }
+#wb_main { width:100%; height: 680px; }
+#wb_main > .wb_cont_bg { background:# F1F1F1 none repeat scroll left top; }
+#wb_footer { height: 100px; }
+#wb_footer > .wb_cont_bg { background: #192126 none repeat-x scroll left top; }
+body { background: #f5f5f5 url("run.jpg") no-repeat scroll center top; background-size: auto auto; }
+.wb_sbg { background: transparent url("../gallery_gen/b4302f89c77ef53f2eb060dcedbc10ca.jpg") repeat-x center bottom; }
+body, .wb_sbg { min-width: 100%px; min-height: 100%px; }
+.wb_cont_inner { width: 100%px; }
+.wb_cont_bg { width: 100%px; margin-left: -600px; }
+.root { height: 888px; overflow: visible; min-height: 100%px; }
+#wb_element_instance0 { top: 20px; left: 440px; min-width: 760px; width: 760px; min-height: 40px; height: 40px; display: block; z-index: 427; }
+#wb_element_instance0 ul { background: transparent none repeat scroll right top; border: 1px none #000000; }
+#wb_element_instance0, #wb_element_instance0 ul { text-align: right; }
+#wb_element_instance0 ul ul { background: #242424 none repeat scroll right top; }
+#wb_element_instance0 li { margin: 0px 0px 0px 0px; }
+#wb_element_instance0 li a { text-transform: uppercase; border: 0px none #000000; padding: 10px 15px 10px 15px; font: normal normal 18px 'Roboto',sans-serif; text-decoration: none; color: #ffffff; line-height: 20px; background: transparent none repeat-x scroll center center; }
+#wb_element_instance0 li.over > a, #wb_element_instance0 li:focus > a { border: 0px none #000000; font: normal normal 18px 'Roboto',sans-serif; text-decoration: none; color: #dbc038; line-height: 20px; background: transparent none no-repeat scroll center top; }
+#wb_element_instance0 li.active > a { border: 0px none #000000; font: normal normal 18px 'Roboto',sans-serif; text-decoration: none; color: #dbc038; line-height: 20px; background: transparent none no-repeat scroll center center; }
+#wb_element_instance0:not(.collapse-expanded) .vmenu ul.open-left,#wb_element_instance0:not(.collapse-expanded) .hmenu ul.open-left { left: auto; right: 100%; }
+#wb_element_instance0:not(.collapse-expanded) .hmenu > li > ul.open-left { left: auto; right: 0; }
+#wb_element_instance1 { top: 20px; left: 100px; min-width: 240px; width: 240px; min-height: 48px; height: 48px; display: block; z-index: 423; }
+#wb_element_instance2 { top: 20px; left: 20px; min-width: 64px; width: 64px; min-height: 64px; height: 64px; display: block; z-index: 330; }
+#wb_element_instance2 img { width: 64px; height: 64px; display: block; position: static; left: 0px; top: 0px; }
+#wb_element_instance3 { top: 40px; left: 20px; min-width: 200px; width: 200px; min-height: 44px; height: 44px; display: block; z-index: 405; }
+#wb_element_instance4 { top: 30px; left: 30px; min-width: 450px; width: 450px; min-height: 216px; height: 216px; display: block; z-index: 259; }
+#wb_element_instance5 { top: 0px; left: 0px; min-width: 550px; width: 550px; min-height: 680px; height: 680px; display: block; z-index: 250; }
+#wb_element_instance5 > .wb_shp { background: #292929 none repeat scroll left top; background-size: auto auto; border: 0px solid #C0C0C0; opacity: 0.5; border-radius: 0px 0px 0px 0px; -moz-border-radius: 0px 0px 0px 0px; -webkit-border-radius: 0px 0px 0px 0px; width: 550px; height: 680px; }
+#wb_element_instance6 { top: 310px; left: 20px; min-width: 510px; width: 510px; min-height: 24px; height: 24px; display: block; z-index: 262; }
+#wb_element_instance7 { top: 20px; left: 660px; min-width: 510px; width: 510px; min-height: 74px; height: 74px; display: block; z-index: 263; }
+#wb_element_instance8 { top: 720px; left: 0px; display: block; z-index: 9000; }
+#wb_element_instance9 { top: 970px; left: 0px; display: block; z-index: 9999; }
+
+
+#wb_element_instance1 p:last-child { margin-bottom: 0; }
+#wb_element_instance3 p:last-child { margin-bottom: 0; }
+#wb_element_instance4 p:last-child { margin-bottom: 0; }
+#wb_element_instance6 p:last-child { margin-bottom: 0; }
+#wb_element_instance7 p:last-child { margin-bottom: 0; }
+
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
